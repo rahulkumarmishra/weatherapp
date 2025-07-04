@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Weather App</h1>
+    
+    <div class="card">
+      <div class="card-body">
+        <form id="weatherForm">
+          <div class="form-group">
+            <label for="address">Enter Address:</label>
+            <input type="text" class="form-control" id="address" required placeholder="e.g., Chandigarh">
+          </div>
+          <button type="button" id="getWeatherBtn" class="btn btn-primary">Get Weather</button>
+          <button type="button" id="saveWeatherBtn" class="btn btn-success">Save to History</button>
+          <button type="button" id="showHistoryBtn" class="btn btn-info">Show History</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="weatherResults" class="mt-4"></div>
+    <div id="historyResults" class="mt-4"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

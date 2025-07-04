@@ -41,3 +41,25 @@ body {
 .history-item:hover {
   background-color: #f8f9fa;
 }
+
+/* Loading indicator */
+.loading-indicator {
+  margin: 20px 0;
+}
+
+/* Alert messages */
+.alert {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* History item cursor */
+.history-item {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.history-item:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-1px);
+}
